@@ -1,7 +1,7 @@
 <template>
   <div class="no-margin fixed-top">
     <div class="header no-margin">
-      <div class="container no-margin no-padding">
+      <div class="container no-padding">
         <div class="row no-margin">
           <div class="col-5 col-xl-2 col-lg-2">
             <a href="/"
@@ -29,7 +29,7 @@
 <!--            <a href="/study/join" style="font-weight: bold;font-size: 0.8rem;color: #8a8a8a; letter-spacing: -0.5px;">스터디찾기</a>-->
 <!--            <a href="/study/manager"-->
 <!--               style="font-weight: bold;font-size: 0.8rem;color: #8a8a8a; letter-spacing: -0.5px;margin-left: 1.2rem;">스터디관리</a>-->
-            <button style="padding-left: 0.5rem; font-weight: bold" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button style="font-weight: bold; padding: 0px;" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
               <i class="fas fa-bars"></i>
 <!--              <span class="navbar-toggler-icon"></span>-->
             </button>
@@ -37,13 +37,13 @@
         </div>
         <div class="collapse" id="navbarToggleExternalContent">
           <div class="p-4" style="color: white; font-family: 'NanumSquare', sans-serif !important;font-size: 0.9rem;text-align: center;align-items: center;justify-content: center; font-weight: bold; background-color: #6c3ad3;">
-            <div style="margin-bottom: 0.6rem;">스터디찾기</div>
-            <div style="margin-bottom: 0.6rem;">스터디관리</div>
-            <div style="margin-bottom: 0.6rem;">로그인</div>
-            <div style="margin-bottom: 0.6rem;">회원가입</div>
-            <div style="margin-bottom: 0.6rem;">이용안내</div>
-            <div style="margin-bottom: 0.6rem;">공지사항</div>
-            <div style="margin-bottom: 0.6rem;">스터디그램 이란?</div>
+            <div style="margin-bottom: 0.7rem;">스터디찾기</div>
+            <div style="margin-bottom: 0.7rem;">스터디관리</div>
+            <div style="margin-bottom: 0.7rem;">로그인</div>
+            <div style="margin-bottom: 0.7rem;">회원가입</div>
+            <div style="margin-bottom: 0.7rem;">이용안내</div>
+            <div style="margin-bottom: 0.7rem;">공지사항</div>
+            <div style="">스터디그램 이란?</div>
           </div>
         </div>
       </div>

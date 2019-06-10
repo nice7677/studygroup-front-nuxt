@@ -33,7 +33,7 @@
         스터디 매니저
       </div>
       <div class="col-xl-12 common mobile"
-           style="font-weight: bold; color: #b2b2b2; font-size: 0.7rem;letter-spacing: -1px; margin-top: 1rem;">
+           style="font-weight: bold; color: #b2b2b2; font-size: 0.75rem;letter-spacing: -1px; margin-top: 1rem;">
         스터디 그램은 금전적 요구를 하지 않습니다.
       </div>
       <div class="col-xl-12 common">
@@ -69,7 +69,7 @@
   }
 
   .mobile {
-    font-size: 1.4rem;
+    font-size: 1.31rem;
     /*padding-top: 3.5rem;*/
     /*font-weight: bold;*/
     font-weight: lighter;

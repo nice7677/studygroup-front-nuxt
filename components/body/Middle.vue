@@ -5,14 +5,14 @@
         스터디 그램은 누구나 사용 할 수 있습니다
       </div>
       <div class="col-xl-12 common" style="color: #b2b2b2; font-weight: bolder;">
-        스터디 찾기
+        스터디 시작하기
       </div>
       <div class="col-xl-12 common" style="color:#6c3ad3; font-weight: bolder;">
-        스터디 매니저
+        스터디 관리하기
       </div>
       <div class="col-xl-12 common"
            style="font-weight: bold; color: #b2b2b2; font-size: 0.85rem;letter-spacing: -1px; margin-top: 1rem;">
-        스터디 그램은 금전적 요구를 하지 않습니다.
+        스터디그램은 금전적 요구를 하지 않습니다.
       </div>
       <div class="col-xl-12 common">
         <a href="/">
@@ -27,14 +27,14 @@
         스터디 그램은 누구나 사용 할 수 있습니다
       </div>
       <div class="col-xl-12 common mobile" style="color: #b2b2b2; font-weight: bolder;">
-        스터디 찾기
+        스터디 시작하기
       </div>
       <div class="col-xl-12 common mobile" style="color:#6c3ad3; font-weight: bolder;">
-        스터디 매니저
+        스터디 관리하기
       </div>
       <div class="col-xl-12 common mobile"
            style="font-weight: bold; color: #b2b2b2; font-size: 0.75rem;letter-spacing: -1px; margin-top: 1rem;">
-        스터디 그램은 금전적 요구를 하지 않습니다.
+        스터디그램은 금전적 요구를 하지 않습니다.
       </div>
       <div class="col-xl-12 common">
         <a href="/">

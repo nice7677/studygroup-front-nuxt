@@ -29,10 +29,10 @@
 <!--            <a href="/study/join" style="font-weight: bold;font-size: 0.8rem;color: #8a8a8a; letter-spacing: -0.5px;">스터디찾기</a>-->
 <!--            <a href="/study/manager"-->
 <!--               style="font-weight: bold;font-size: 0.8rem;color: #8a8a8a; letter-spacing: -0.5px;margin-left: 1.2rem;">스터디관리</a>-->
-            <button style="font-weight: bold; padding: 0px;" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div style="font-weight: bold; padding: 0px;" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
               <i class="fas fa-bars"></i>
 <!--              <span class="navbar-toggler-icon"></span>-->
-            </button>
+            </div>
           </div>
         </div>
         <div class="collapse" id="navbarToggleExternalContent">
@@ -57,12 +57,10 @@
 </template>
 
 <script>
-  import FixedHeader from 'vue-fixed-header'
 
   export default {
     name: "MenuBar",
     components: {
-      FixedHeader,
     },
 
   }

@@ -1,14 +1,14 @@
 <template>
   <div>
     <MenuBar/>
-    <LoginBody/>
+    <Register/>
     <div class="d-none d-xl-block">
       <div class="fixed-bottom">
         <Footer/>
       </div>
     </div>
     <div class="d-block d-sm-none" style="margin-top: 6rem;">
-        <Footer/>
+      <Footer/>
     </div>
   </div>
 </template>
@@ -19,7 +19,7 @@
   import MenuBar from '~/components/MenuBar.vue'
   import Body from '~/components/Body.vue'
   import Footer from '~/components/Footer.vue'
-  import LoginBody from '~/components/LoginBody.vue'
+  import Register from '~/components/Register.vue'
 
   export default {
     components: {
@@ -28,7 +28,7 @@
       MenuBar,
       Body,
       Footer,
-      LoginBody,
+      Register,
     }
   }
 </script>

@@ -1,15 +1,15 @@
 <template>
   <div>
     <MenuBar/>
-    <LoginBody/>
-    <div class="d-none d-xl-block">
+    <HowToUse/>
+<!--    <div class="d-none d-xl-block">-->
       <div class="fixed-bottom">
         <Footer/>
       </div>
-    </div>
-    <div class="d-block d-sm-none" style="margin-top: 6rem;">
-        <Footer/>
-    </div>
+<!--    </div>-->
+<!--    <div class="d-block d-sm-none" style="margin-top: 6rem;">-->
+<!--      <Footer/>-->
+<!--    </div>-->
   </div>
 </template>
 
@@ -19,7 +19,7 @@
   import MenuBar from '~/components/MenuBar.vue'
   import Body from '~/components/Body.vue'
   import Footer from '~/components/Footer.vue'
-  import LoginBody from '~/components/LoginBody.vue'
+  import HowToUse from '~/components/HowToUse.vue'
 
   export default {
     components: {
@@ -28,16 +28,11 @@
       MenuBar,
       Body,
       Footer,
-      LoginBody,
+      HowToUse,
     }
   }
 </script>
 
-<style>
-
-  .no-margin {
-    margin: 0px;
-  }
+<style scoped>
 
 </style>
-

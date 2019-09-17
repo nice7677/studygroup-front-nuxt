@@ -1,15 +1,14 @@
 <template>
-  <div class="body">
-    <Top/>
+  <div class="loginBody">
     <div class="container no-padding">
       <div class="d-flex justify-content-center align-middle">
         <div class="card" style="width: 450px; padding: 30px; margin-top: 6rem; margin-left: 1rem; margin-right: 1rem;">
           <div style="color: #845ef7; font-size: 1.3rem;font-family: 'Quicksand', sans-serif; letter-spacing: 0.7px; font-weight: bold; margin-bottom: 1rem;">
-              스터디그램
+              로그인
           </div>
           <div class="form-group">
             <small>아이디</small>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  pattern="[a-zA-Z]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,}" required placeholder="Your Email">
 <!--            <small id="emailHelp" class="form-text text-muted">으하하하하하</small>-->
           </div>
           <div class="form-group">
@@ -17,10 +16,15 @@
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
           </div>
           <button type="submit" class="btn btn-primary" style="margin-top: 1rem; margin-bottom: 1rem;">로그인</button>
-          <button type="submit" class="btn btn-success">회원가입</button>
+          <a href="/regist">
+            <button type="submit" class="btn btn-success" style="width: 100%">
+              회원가입
+            </button>
+          </a>
+
+
         </div>
       </div>
-
     </div>
   </div>
 </template>
@@ -32,7 +36,7 @@
 </script>
 
 <style scoped>
-  .body {
+  .loginBody {
     margin-top: 4rem;
     /*margin-bottom: 1rem;*/
   }

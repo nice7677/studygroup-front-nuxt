@@ -12,6 +12,7 @@ import Header from '~/components/Header.vue'
 import MenuBar from '~/components/MenuBar.vue'
 import Body from '~/components/Body.vue'
 import Footer from '~/components/Footer.vue'
+import LoginBody from '~/components/LoginBody.vue'
 
 export default {
   components: {
@@ -20,6 +21,7 @@ export default {
     MenuBar,
     Body,
     Footer,
+    LoginBody,
   }
 }
 </script>

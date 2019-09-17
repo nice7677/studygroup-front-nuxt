@@ -19,7 +19,7 @@
                       style="font-size: 0.85rem;letter-spacing: -2px; width: 75px">로그인
               </button>
             </a>
-            <a href="/login" style="color: #8a8a8a; letter-spacing: -2px;margin-left: 1rem;">
+            <a href="/regist" style="color: #8a8a8a; letter-spacing: -2px;margin-left: 1rem;">
               <button type="button" class="btn btn-outline-secondary"
                       style="font-size: 0.85rem;letter-spacing: -2px; width: 75px">회원가입
               </button>
@@ -39,9 +39,20 @@
           <div class="p-4" style="color: white; font-family: 'NanumSquare', sans-serif !important;font-size: 0.9rem;text-align: center;align-items: center;justify-content: center; font-weight: bold; background-color: #6c3ad3;">
             <div style="margin-bottom: 0.7rem;">스터디찾기</div>
             <div style="margin-bottom: 0.7rem;">스터디관리</div>
-            <div style="margin-bottom: 0.7rem;">로그인</div>
-            <div style="margin-bottom: 0.7rem;">회원가입</div>
-            <div style="margin-bottom: 0.7rem;">이용안내</div>
+            <div style="margin-bottom: 0.7rem;">
+              <a href="/login">
+                로그인
+              </a>
+            </div>
+            <div style="margin-bottom: 0.7rem;">
+              <a href="/regist">
+              회원가입</a>
+            </div>
+            <div style="margin-bottom: 0.7rem;">
+              <a href="/howtouse">
+                이용안내
+              </a>
+            </div>
             <div style="margin-bottom: 0.7rem;">공지사항</div>
             <div style="">스터디그램 이란?</div>
           </div>

@@ -6,7 +6,7 @@
          style="font-size: 1.3rem;font-family: 'NanumSquare', sans-serif !important;font-weight: bold;">
       스터디그램
     </div>
-    <div class="col-12 d-block d-sm-none" style="padding-top: 3rem; font-size: 1.7rem;">Welcome to Studygram</div>
+    <div class="col-12 d-block d-sm-none" style="padding-top: 3.5rem; font-size: 1.4rem;">Welcome to Studygram</div>
     <div class="col-12 d-block d-sm-none"
          style="font-size: 1rem;font-family: 'NanumSquare', sans-serif !important;font-weight: bold;">
       스터디그램

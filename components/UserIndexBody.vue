@@ -4,7 +4,7 @@
         <div class="d-flex justify-content-center align-middle">
           <div class="card" style="width: 450px; padding: 30px; margin-top: 6rem; margin-left: 1rem; margin-right: 1rem;">
             <div style="color: #845ef7; font-size: 1.3rem;font-family: 'Quicksand', sans-serif; letter-spacing: 0.7px; font-weight: bold; margin-bottom: 1rem;">
-              비밀번호 확인
+              정보 수정
             </div>
             <div class="form-group">
               <small>비밀번호</small>

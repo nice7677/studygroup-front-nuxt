@@ -8,8 +8,8 @@
                style="color: #845ef7; font-size: 1.3rem;font-family: 'Quicksand', sans-serif; letter-spacing: 0.7px; font-weight: bold;">Studygram</a>
           </div>
           <div class="col-xl-4 col-lg-4 d-none d-sm-block left no-padding">
-            <a href="/study/join" style="color: #8a8a8a; letter-spacing: -0.5px;">스터디찾기</a>
-            <a href="/study/manager" style="color: #8a8a8a; letter-spacing: -0.5px;margin-left: 1.2rem;">스터디관리</a>
+            <a href="/study/" style="color: #8a8a8a; letter-spacing: -0.5px;">스터디찾기</a>
+            <a href="/study/management" style="color: #8a8a8a; letter-spacing: -0.5px;margin-left: 1.2rem;">스터디관리</a>
           </div>
           <div class="col-xl-6 col-lg-6 d-none d-sm-block right no-padding">
             <a href="/howtouse" style="color: #8a8a8a; letter-spacing: -2px;margin-left: 1rem;">이용안내</a>
@@ -37,8 +37,16 @@
         </div>
         <div class="collapse" id="navbarToggleExternalContent">
           <div class="p-4" style="color: white; font-family: 'NanumSquare', sans-serif !important;font-size: 0.9rem;text-align: center;align-items: center;justify-content: center; font-weight: bold; background-color: #6c3ad3;">
-            <div style="margin-bottom: 0.7rem;">스터디찾기</div>
-            <div style="margin-bottom: 0.7rem;">스터디관리</div>
+            <div style="margin-bottom: 0.7rem;">
+              <a href="/study">
+                스터디찾기
+              </a>
+            </div>
+            <div style="margin-bottom: 0.7rem;">
+              <a href="/study/management">
+                스터디관리
+              </a>
+            </div>
             <div style="margin-bottom: 0.7rem;">
               <a href="/login">
                 로그인

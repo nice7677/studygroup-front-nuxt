@@ -7,7 +7,7 @@
         <Footer/>
       </div>
     </div>
-    <div class="d-block d-sm-none" style="margin-top: 6rem;">
+    <div class="d-block d-sm-none" style="margin-top: 3rem;">
       <Footer/>
     </div>
   </div>

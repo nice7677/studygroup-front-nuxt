@@ -21,8 +21,6 @@
               회원가입
             </button>
           </a>
-
-
         </div>
       </div>
     </div>
@@ -37,7 +35,7 @@
 
 <style scoped>
   .loginBody {
-    margin-top: 4rem;
+    margin-top: 1rem;
     /*margin-bottom: 1rem;*/
   }
 </style>

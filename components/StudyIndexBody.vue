@@ -1,7 +1,7 @@
 <template>
   <div class="body">
     <div class="container no-padding">
-      <div style="padding-top: 2rem;">
+      <div style="padding-top: 1rem;">
         <div
           style="color: #845ef7; font-size: 1.3rem;font-family: 'Quicksand', sans-serif; letter-spacing: 0.7px; font-weight: bold; margin-bottom: 1rem;">
           스터디 찾기

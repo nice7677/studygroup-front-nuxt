@@ -7,7 +7,7 @@
 <!--        <Footer/>-->
 <!--      </div>-->
 <!--    </div>-->
-    <div style="margin-top: 2rem;">
+    <div style="margin-top: 1rem;">
       <Footer/>
     </div>
   </div>

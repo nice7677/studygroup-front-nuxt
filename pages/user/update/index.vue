@@ -1,7 +1,7 @@
 <template>
   <div>
     <MenuBar/>
-    <userBody/>
+    <UserBody/>
 <!--    <div class="d-none d-xl-block">-->
 <!--      <div class="fixed-bottom">-->
 <!--        <Footer/>-->
@@ -19,7 +19,7 @@
   import MenuBar from '~/components/MenuBar.vue'
   import Body from '~/components/Body.vue'
   import Footer from '~/components/Footer.vue'
-  import userBody from '~/components/userBody.vue'
+  import UserBody from '~/components/UserBody.vue'
 
   export default {
     components: {
@@ -28,7 +28,7 @@
       MenuBar,
       Body,
       Footer,
-      userBody,
+      UserBody,
     }
   }
 </script>

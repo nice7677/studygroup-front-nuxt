@@ -11,8 +11,6 @@
               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
             </div>
             <button type="submit" class="btn btn-info" style="margin-top: 1rem; margin-bottom: 1rem;">확인</button>
-
-
           </div>
         </div>
       </div>

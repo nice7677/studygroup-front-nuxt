@@ -29,7 +29,10 @@
 <!--            <a href="/study/join" style="font-weight: bold;font-size: 0.8rem;color: #8a8a8a; letter-spacing: -0.5px;">스터디찾기</a>-->
 <!--            <a href="/study/manager"-->
 <!--               style="font-weight: bold;font-size: 0.8rem;color: #8a8a8a; letter-spacing: -0.5px;margin-left: 1.2rem;">스터디관리</a>-->
-            <button style="font-weight: bold; padding: 0px; border: 0px; background: none;"  data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+<!--            <div>-->
+              {{nick}}
+<!--            </div>-->
+            <button style="margin-left: 1rem; font-weight: bold; padding: 0px; border: 0px; background: none; outline: none;"  data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
               <i class="fas fa-bars"></i>
 <!--              <span class="navbar-toggler-icon"></span>-->
             </button>
@@ -76,11 +79,42 @@
 </template>
 
 <script>
+  import axios from 'axios'
 
   export default {
     name: "MenuBar",
-    components: {
+    data: function () {
+      return {
+        tokenCheck : false,
+        nick : '',
+      }
     },
+    beforeMount: function () {
+      var token = localStorage.getItem("token")
+      axios.get("https://studygram.co.kr/api",{
+            headers: { "Authorization": "Bearer " + token }
+          })
+            .then((res) => {
+              this.nick = localStorage.getItem('nick')
+              nick = localStorage.getItem('nick')
+              this.tokenCheck = true
+              axios.get("https://studygram.co.kr/api/users/info",{
+                headers: { "Authorization": "Bearer " + token }
+              })
+                .then((res) => {
+                  localStorage.setItem('nick', res.data.nick)
+                  // console.log(localStorage.getItem('id'))
+                })
+                .catch((err) => {
+                  console.log(err.response)
+                })
+              // console.log(res)
+            })
+            .catch((err) => {
+              localStorage.clear()
+              console.log(err.response)
+            })
+    }
 
   }
 </script>

@@ -12,7 +12,7 @@
       </div>
       <div class="col-xl-12 common"
            style="font-weight: bold; color: #b2b2b2; font-size: 0.85rem;letter-spacing: -1px; margin-top: 1rem;">
-        스터디그램은 금전적 요구를 하지 않습니다.
+        스터디그램을 사용해 나만의 스터디를 만들어 보세요.
       </div>
       <div class="col-xl-12 common">
         <a href="/">
@@ -34,7 +34,7 @@
       </div>
       <div class="col-xl-12 common mobile"
            style="font-weight: bold; color: #b2b2b2; font-size: 0.75rem;letter-spacing: -1px; margin-top: 1rem;">
-        스터디그램은 금전적 요구를 하지 않습니다.
+        스터디그램을 사용해 나만의 스터디를 만들어 보세요.
       </div>
       <div class="col-xl-12 common">
         <a href="/">
